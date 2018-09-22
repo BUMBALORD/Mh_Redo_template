@@ -1,0 +1,51 @@
+.wrapper {
+    width: 100%;
+}
+
+.row { 
+    margin: 0;
+    padding: 0;
+}
+
+.logoSmall {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 150px;
+    float: left;
+}
+
+.connect {
+   margin-top: 150px;
+   /* width: 500px;s */
+}
+
+.buttonText {
+    font-size: 25px;
+}
+
+.quote {
+    margin-left: 25px !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .smallGone {
+        display: none;
+    }
+
+    .connect {
+        width: 80%;
+        margin-top: 25px;
+    }
+
+    .buttonText {
+        font-size: 15px;
+    }
+
+    .quote {
+        width: 85%;
+        padding: 0;
+        /* margin: 0; */
+    }
+}
