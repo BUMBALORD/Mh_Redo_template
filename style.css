@@ -27,6 +27,9 @@
     margin-left: 25px !important;
 }
 
+.centerBtn {
+    margin-top: 45%;
+}
 
 @media only screen and (max-width: 767px) {
     /* For mobile phones: */
@@ -48,4 +51,14 @@
         padding: 0;
         /* margin: 0; */
     }
+
+    .centerBtn{
+        margin-top: 10px;
+    }
 }
+
+@media (min-width: 1200px) {
+    .container {
+      width: 1200px;
+    }
+  }
